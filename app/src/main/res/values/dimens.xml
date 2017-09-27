@@ -1,0 +1,12 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- My dimensions-->
+    <dimen name="peg_size">42dp</dimen>
+    <dimen name="peg_margin">6dp</dimen>
+    <dimen name="board_size">450dp</dimen>
+    <dimen name="board_text_size">17sp</dimen>
+    <dimen name="win_text_size">30sp</dimen>
+</resources>

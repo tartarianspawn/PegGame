@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="@dimen/board_size"
+        android:layout_height="@dimen/board_size"
+        android:id="@+id/boardView"
+        android:src="@drawable/board_1"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/board_description" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/board_text"
+        android:id="@+id/boardTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/boardLayout"
+        android:textSize="@dimen/board_text_size" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/boardLayout"
+        android:columnCount="5"
+        android:rowCount="5">
+
+        <ImageView
+            android:layout_width="@dimen/peg_size"
+            android:layout_height="@dimen/peg_size"
+            android:id="@+id/pegView1"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_margin="@dimen/peg_margin"
+            android:background="@drawable/peg_hole"
+            android:layout_columnSpan="5"
+            android:layout_gravity="center_horizontal"
+            android:tag="Peg1"
+            android:contentDescription="@string/peg_description" />
+
+        <ImageView
+            android:layout_width="@dimen/peg_size"
+            android:layout_height="@dimen/peg_size"
+            android:id="@+id/pegView2"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_columnSpan="4"
+            android:layout_margin="@dimen/peg_margin"
+            android:background="@drawable/peg_hole"
+            android:layout_gravity="center_horizontal"
+            android:tag="Peg2"
+            android:contentDescription="@string/peg_description" />
+
+        <ImageView
+            android:layout_width="@dimen/peg_size"
+            android:layout_height="@dimen/peg_size"
+            android:id="@+id/pegView3"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:layout_columnSpan="4"
+            android:layout_margin="@dimen/peg_margin"
+            android:background="@drawable/peg_hole"
+            android:layout_gravity="center_horizontal"
+            android:tag="Peg3"
+            android:contentDescription="@string/peg_description" />
+
+        <ImageView
+            android:layout_width="@dimen/peg_size"
+            android:layout_height="@dimen/peg_size"
+            android:id="@+id/pegView4"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_margin="@dimen/peg_margin"
+            android:background="@drawable/peg_hole"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnSpan="3"
+            android:tag="Peg4"
+            android:contentDescription="@string/peg_description" />
+
+        <ImageView
+            android:layout_width="@dimen/peg_size"
+            android:layout_height="@dimen/peg_size"
+            android:id="@+id/pegView5"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_margin="@dimen/peg_margin"
+            android:background="@drawable/peg_hole"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnSpan="3"
+            android:tag="Peg5"
+            android:contentDescription="@string/peg_description" />
+
+        <ImageView
+            android:layout_width="@dimen/peg_size"
+            android:layout_height="@dimen/peg_size"
+            android:id="@+id/pegView6"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:layout_margin="@dimen/peg_margin"
+            android:background="@drawable/peg_hole"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnSpan="3"
+            android:tag="Peg6"
+            android:contentDescription="@string/peg_description" />
+
+        <ImageView
+            android:layout_width="@dimen/peg_size"
+            android:layout_height="@dimen/peg_size"
+            android:id="@+id/pegView7"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_margin="@dimen/peg_margin"
+            android:background="@drawable/peg_hole"
+            android:layout_gravity="center_horizontal"
+            android:tag="Peg7"
+            android:contentDescription="@string/peg_description" />
+
+        <ImageView
+            android:layout_width="@dimen/peg_size"
+            android:layout_height="@dimen/peg_size"
+            android:id="@+id/pegView8"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:layout_columnSpan="2"
+            android:layout_margin="@dimen/peg_margin"
+            android:background="@drawable/peg_hole"
+            android:layout_gravity="center_horizontal"
+            android:tag="Peg8"
+            android:contentDescription="@string/peg_description" />
+
+        <ImageView
+            android:layout_width="@dimen/peg_size"
+            android:layout_height="@dimen/peg_size"
+            android:id="@+id/pegView9"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:layout_columnSpan="2"
+            android:layout_margin="@dimen/peg_margin"
+            android:background="@drawable/peg_hole"
+            android:layout_gravity="center_horizontal"
+            android:tag="Peg9"
+            android:contentDescription="@string/peg_description" />
+
+        <ImageView
+            android:layout_width="@dimen/peg_size"
+            android:layout_height="@dimen/peg_size"
+            android:id="@+id/pegView10"
+            android:layout_row="3"
+            android:layout_column="3"
+            android:layout_columnSpan="2"
+            android:layout_margin="@dimen/peg_margin"
+            android:background="@drawable/peg_hole"
+            android:layout_gravity="center_horizontal"
+            android:tag="Peg10"
+            android:contentDescription="@string/peg_description" />
+
+        <ImageView
+            android:layout_width="@dimen/peg_size"
+            android:layout_height="@dimen/peg_size"
+            android:id="@+id/pegView11"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:layout_margin="@dimen/peg_margin"
+            android:background="@drawable/peg_hole"
+            android:tag="Peg11"
+            android:contentDescription="@string/peg_description" />
+
+        <ImageView
+            android:layout_width="@dimen/peg_size"
+            android:layout_height="@dimen/peg_size"
+            android:id="@+id/pegView12"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:layout_margin="@dimen/peg_margin"
+            android:background="@drawable/peg_hole"
+            android:tag="Peg12"
+            android:contentDescription="@string/peg_description" />
+
+        <ImageView
+            android:layout_width="@dimen/peg_size"
+            android:layout_height="@dimen/peg_size"
+            android:id="@+id/pegView13"
+            android:layout_row="4"
+            android:layout_column="2"
+            android:layout_margin="@dimen/peg_margin"
+            android:background="@drawable/peg_hole"
+            android:tag="Peg13"
+            android:contentDescription="@string/peg_description" />
+
+        <ImageView
+            android:layout_width="@dimen/peg_size"
+            android:layout_height="@dimen/peg_size"
+            android:id="@+id/pegView14"
+            android:layout_row="4"
+            android:layout_column="3"
+            android:layout_margin="@dimen/peg_margin"
+            android:background="@drawable/peg_hole"
+            android:tag="Peg14"
+            android:contentDescription="@string/peg_description" />
+
+        <ImageView
+            android:layout_width="@dimen/peg_size"
+            android:layout_height="@dimen/peg_size"
+            android:id="@+id/pegView15"
+            android:layout_row="4"
+            android:layout_column="4"
+            android:layout_margin="@dimen/peg_margin"
+            android:background="@drawable/peg_hole"
+            android:tag="Peg15"
+            android:contentDescription="@string/peg_description" />
+    </GridLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/restart_button"
+        android:id="@+id/resetButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/win_text"
+        android:id="@+id/winTextView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:textSize="@dimen/win_text_size"
+        android:layout_marginTop="10dp" />
+</RelativeLayout>

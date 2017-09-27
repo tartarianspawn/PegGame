@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Peg Game</string>
+    <string name="peg_description">A peg</string>
+    <string name="board_description">The board</string>
+    <string name="board_text">Omar\'s Peg Game</string>
+    <string name="restart_button">New Game</string>
+    <string name="win_text">Game Completed!</string>
+</resources>

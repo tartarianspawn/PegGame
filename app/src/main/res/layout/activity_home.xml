@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="zero.peggame.HomeActivity">
+
+    <ImageView
+        android:layout_width="@dimen/board_size"
+        android:layout_height="@dimen/board_size"
+        android:id="@+id/boardView"
+        android:layout_centerInParent="true"
+        android:src="@drawable/board_1"
+        android:contentDescription="@string/board_description" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="@dimen/peg_size"
+                android:layout_height="@dimen/peg_size"
+                android:id="@+id/pegView1"
+                android:layout_margin="@dimen/peg_margin"
+                android:background="@drawable/peg_hole"
+                android:contentDescription="@string/peg_description" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="@dimen/peg_size"
+                android:layout_height="@dimen/peg_size"
+                android:id="@+id/pegView2"
+                android:layout_margin="@dimen/peg_margin"
+                android:background="@drawable/peg_hole"
+                android:contentDescription="@string/peg_description" />
+
+            <ImageView
+                android:layout_width="@dimen/peg_size"
+                android:layout_height="@dimen/peg_size"
+                android:id="@+id/pegView3"
+                android:layout_margin="@dimen/peg_margin"
+                android:background="@drawable/peg_hole"
+                android:contentDescription="@string/peg_description" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="@dimen/peg_size"
+                android:layout_height="@dimen/peg_size"
+                android:id="@+id/pegView4"
+                android:layout_margin="@dimen/peg_margin"
+                android:background="@drawable/peg_hole"
+                android:contentDescription="@string/peg_description" />
+
+            <ImageView
+                android:layout_width="@dimen/peg_size"
+                android:layout_height="@dimen/peg_size"
+                android:id="@+id/pegView5"
+                android:layout_margin="@dimen/peg_margin"
+                android:background="@drawable/peg_hole"
+                android:contentDescription="@string/peg_description" />
+
+            <ImageView
+                android:layout_width="@dimen/peg_size"
+                android:layout_height="@dimen/peg_size"
+                android:id="@+id/pegView6"
+                android:layout_margin="@dimen/peg_margin"
+                android:background="@drawable/peg_hole"
+                android:contentDescription="@string/peg_description" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="@dimen/peg_size"
+                android:layout_height="@dimen/peg_size"
+                android:id="@+id/pegView7"
+                android:layout_margin="@dimen/peg_margin"
+                android:background="@drawable/peg_hole"
+                android:contentDescription="@string/peg_description" />
+
+            <ImageView
+                android:layout_width="@dimen/peg_size"
+                android:layout_height="@dimen/peg_size"
+                android:id="@+id/pegView8"
+                android:layout_margin="@dimen/peg_margin"
+                android:background="@drawable/peg_hole"
+                android:contentDescription="@string/peg_description" />
+
+            <ImageView
+                android:layout_width="@dimen/peg_size"
+                android:layout_height="@dimen/peg_size"
+                android:id="@+id/pegView9"
+                android:layout_margin="@dimen/peg_margin"
+                android:background="@drawable/peg_hole"
+                android:contentDescription="@string/peg_description" />
+
+            <ImageView
+                android:layout_width="@dimen/peg_size"
+                android:layout_height="@dimen/peg_size"
+                android:id="@+id/pegView10"
+                android:layout_margin="@dimen/peg_margin"
+                android:background="@drawable/peg_hole"
+                android:contentDescription="@string/peg_description" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="@dimen/peg_size"
+                android:layout_height="@dimen/peg_size"
+                android:id="@+id/pegView11"
+                android:layout_margin="@dimen/peg_margin"
+                android:background="@drawable/peg_hole"
+                android:contentDescription="@string/peg_description" />
+
+            <ImageView
+                android:layout_width="@dimen/peg_size"
+                android:layout_height="@dimen/peg_size"
+                android:id="@+id/pegView12"
+                android:layout_margin="@dimen/peg_margin"
+                android:background="@drawable/peg_hole"
+                android:contentDescription="@string/peg_description" />
+
+            <ImageView
+                android:layout_width="@dimen/peg_size"
+                android:layout_height="@dimen/peg_size"
+                android:id="@+id/pegView13"
+                android:layout_margin="@dimen/peg_margin"
+                android:background="@drawable/peg_hole"
+                android:contentDescription="@string/peg_description" />
+
+            <ImageView
+                android:layout_width="@dimen/peg_size"
+                android:layout_height="@dimen/peg_size"
+                android:id="@+id/pegView14"
+                android:layout_margin="@dimen/peg_margin"
+                android:background="@drawable/peg_hole"
+                android:contentDescription="@string/peg_description" />
+
+            <ImageView
+                android:layout_width="@dimen/peg_size"
+                android:layout_height="@dimen/peg_size"
+                android:id="@+id/pegView15"
+                android:layout_margin="@dimen/peg_margin"
+                android:background="@drawable/peg_hole"
+                android:contentDescription="@string/peg_description" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
